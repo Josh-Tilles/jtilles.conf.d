@@ -1,0 +1,21 @@
+*~
+.DS_Store
+
+# IntelliJ IDEA project metadata
+atlassian-ide-plugin.xml
+*.iml
+.idea/
+
+.gradle/
+# Take a guess.
+
+# Eclipse project metadata
+.project/
+.settings
+.classpath
+
+# Java (or JVM in general?) generated/built files
+./target/
+build/
+./dist/
+# I hope the above notation means "directories at root of project"

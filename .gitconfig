@@ -1,0 +1,14 @@
+[user]
+	name = Joshua P. Tilles
+	email = MerelyAPseudonym@gmail.com
+[core]
+	excludesfile = /Users/jtilles/.gitignore_global
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	unstage = reset HEAD --

@@ -1,0 +1,12 @@
+export TERM=xterm-256color
+
+
+
+#alias Emacs='osascript -e \'tell app "Emacs" to activate\';/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n'
+
+# qfind - used to quickly find files that contain a string in a directory
+#   (from http://blog.smalleycreative.com/linux/tip-easily-find-files-within-the-current-directory/ )
+qfind () {
+	find . -exec grep -l $1 {} \;
+	return 0
+}
