@@ -15,6 +15,7 @@ atlassian-ide-plugin.xml
 .classpath
 
 # Java (or JVM in general?) generated/built files
+*.class
 ./target/
 build/
 ./dist/
