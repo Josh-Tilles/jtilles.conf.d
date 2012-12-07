@@ -12,3 +12,5 @@
 	trustExitCode = true
 [alias]
 	unstage = reset HEAD --
+[push]
+	default = upstream
