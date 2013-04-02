@@ -1,3 +1,5 @@
+# LOGIN SHELL CONFIGURATION
+
 export ENV=$HOME/.shrc
 
 export EDITOR='choc -w'
