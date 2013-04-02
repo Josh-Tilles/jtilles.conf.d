@@ -15,7 +15,7 @@ export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="$HOME/.cabal/bin:$PATH"
 
 # (La|Xe)TeX
-export PATH='/usr/local/texlive/2012/bin/x86_64-darwin/':$PATH
+export PATH='/usr/local/texlive/2012/bin/x86_64-darwin':$PATH
 
 # example: latexdef -f newcommand
 alias latexdef='texdef --tex latex'
