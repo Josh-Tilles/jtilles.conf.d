@@ -17,6 +17,15 @@
 
 (sm-module-post (base)
   ;; TODO Write the code that should be executed AFTER the packages are initialized
+  
+  ;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
+  (bind-key "M-/" #'hippie-expand)
+  (bind-key "C-x C-b" #'ibuffer)
+  (bind-key "C-s" #'isearch-forward-regexp)
+  (bind-key "C-r" #'isearch-backward-regexp)
+  (bind-key "C-M-s" #'isearch-forward)
+  (bind-key "C-M-r" #'isearch-backward)
+
   )
 
 (sm-provide :module base)

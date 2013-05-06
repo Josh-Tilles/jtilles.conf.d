@@ -71,14 +71,6 @@
 (add-hook 'after-init-hook #'sm-initialize)
 
 
-;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
-(bind-key "M-/" #'hippie-expand)
-(bind-key "C-x C-b" #'ibuffer)
-(bind-key "C-s" #'isearch-forward-regexp)
-(bind-key "C-r" #'isearch-backward-regexp)
-(bind-key "C-M-s" #'isearch-forward)
-(bind-key "C-M-r" #'isearch-backward)
-
 
 ;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
