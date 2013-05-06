@@ -9,7 +9,6 @@
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(mouse-yank-at-point t)
- '(save-interprogram-paste-before-kill t)
  '(save-place t nil (saveplace))
  '(save-place-file "~/.emacs.d/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
  '(sm-base-directory "~/.emacs.d/smotitah/")
