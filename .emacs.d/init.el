@@ -71,10 +71,6 @@
 (add-hook 'after-init-hook #'sm-initialize)
 
 
-;;;; Elisp hacking
-(add-hook 'emacs-lisp-mode-hook #'turn-on-eldoc-mode)
-
-
 ;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
 (bind-key "M-/" #'hippie-expand)
 (bind-key "C-x C-b" #'ibuffer)
