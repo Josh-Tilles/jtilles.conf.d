@@ -11,6 +11,7 @@
  '(mouse-yank-at-point t)
  '(save-place t nil (saveplace))
  '(save-place-file "~/.emacs.d/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
+ '(show-paren-mode t)
  '(sm-base-directory "~/.emacs.d/smotitah/")
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
