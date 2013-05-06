@@ -58,6 +58,9 @@
 
 
 (el-get 'sync 'use-package)
+;; The `bind-key' package is (currently) distributed as a part of jwiegley's
+;; `use-package', but I want to use it in my configuration as though it was
+;; native. In order to do that, I load it early in the configuration process.
 (require 'bind-key)
 
 
@@ -66,6 +69,9 @@
 	     '(:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah"))
 (el-get 'sync 'smotitah)
 (add-hook 'after-init-hook #'sm-initialize)
+
+;;;; Elisp hacking
+(add-hook 'emacs-lisp-mode-hook #'turn-on-eldoc-mode)
 
 
 ;; (added as per recommendation from `auto-compile' documentation)
