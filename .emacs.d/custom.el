@@ -7,6 +7,7 @@
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups"))))
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
+ '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
  '(mouse-yank-at-point t)
  '(save-place t nil (saveplace))
