@@ -63,7 +63,7 @@
 
 ;; Set up the smotitah configuration framework
 (add-to-list 'el-get-sources 
-	     '(:name smotitah :type github :pkgname "laynor/smotitah"))
+	     '(:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah"))
 (el-get 'sync 'smotitah)
 (add-hook 'after-init-hook #'sm-initialize)
 
