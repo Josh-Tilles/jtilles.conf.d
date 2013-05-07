@@ -10,6 +10,7 @@
  '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
  '(mouse-yank-at-point t)
+ '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/"))))
  '(save-place t nil (saveplace))
  '(save-place-file "~/.emacs.d/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
  '(show-paren-mode t)
