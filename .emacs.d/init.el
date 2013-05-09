@@ -24,17 +24,6 @@
 
 
 ;; Make sure Emacs knows to prefer a newer *.el over an older *.elc.
-(add-to-list 'el-get-sources
-	     '(:name packed :type github :pkgname "tarsius/packed"))
-(add-to-list 'el-get-sources
-	     '(:name auto-compile :type github :pkgname "tarsius/auto-compile"
-		     :depends (packed) ;well, on cl-lib too...
-                     ;;; I'd expect the below to work, but it doesn't...
-		     ;; :after
-		     ;; (progn
-		     ;;   (auto-compile-on-save-mode 1)
-		     ;;   (auto-compile-on-load-mode 1))))
-		     ))
 (el-get 'sync '(packed auto-compile))
 (auto-compile-on-save-mode 1)
 (auto-compile-on-load-mode 1)
@@ -65,11 +54,8 @@
 
 
 ;; Set up the smotitah configuration framework
-(add-to-list 'el-get-sources 
-	     '(:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah"))
 (el-get 'sync 'smotitah)
 (add-hook 'after-init-hook #'sm-initialize)
-
 
 
 ;; (added as per recommendation from `auto-compile' documentation)
