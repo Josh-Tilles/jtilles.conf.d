@@ -8,6 +8,8 @@
  '(el-get-sources (quote ((:name packed :type github :pkgname "tarsius/packed" :checkout "0.3.3") (:name auto-compile :type github :pkgname "tarsius/auto-compile" :depends (packed)) (:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah") (:name ibuffer-vc :checkout "0.6") (:name helm :checkout "v1.5.2"))))
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
+ '(ido-use-filename-at-point (quote guess))
+ '(ido-use-url-at-point nil)
  '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
  '(mouse-yank-at-point t)
