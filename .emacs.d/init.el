@@ -5,6 +5,15 @@
   (file-name-directory jpt:emacs-init-file)
   "The configuration directory, defined relative to `jpt:emacs-init-file'.")
 
+(defconst +CUSTOM_FILE-NAME+ "custom.el"
+  "The name of the file that holds my customizations.")
+;; Other possible names are `customizations.el',
+;; (Common Lisp has the convention of bookending names of constants with `+'.)
+
+(set 'custom-file (expand-file-name +CUSTOM_FILE-NAME+ jpt:emacs-config-dir))
+;;(load custom-file 'no-error)
+(load custom-file) ; squawk if it doesn't exist
+
 
 (defun jpt:bootstrap-el-get ()
   (add-to-list 'load-path 
@@ -20,8 +29,6 @@
 (jpt:bootstrap-el-get)
 ;;(el-get 'sync) ;set up ALL THE THINGS
 
-;;(defvar el-get-sources) ;unnecessary because of auto-compile pkg?
-
 
 ;; Make sure Emacs knows to prefer a newer *.el over an older *.elc.
 (el-get 'sync '(packed auto-compile))
@@ -30,16 +37,6 @@
 ;; @TODO alternate idea is make auto-compile & packed
 ;; the ONLY Git submodules. Then I really could load them first.
 ;; (Though it would be best if they just became a part of Emacs core.)
-
-
-(defconst +CUSTOM_FILE-NAME+ "custom.el"
-  "The name of the file that holds my customizations.")
-;; Other possible names are `customizations.el', 
-;; (Common Lisp has the convention of bookending names of constants with `+'.)
-
-(set 'custom-file (expand-file-name +CUSTOM_FILE-NAME+ jpt:emacs-config-dir))
-;;(load custom-file 'no-error)
-(load custom-file) ; squawk if it doesn't exist
 
 
 ;; a few packages are special, like el-get, smotitah, use-package, and ...?
@@ -56,6 +53,7 @@
 ;; Set up the smotitah configuration framework
 (el-get 'sync 'smotitah)
 (add-hook 'after-init-hook #'sm-initialize)
+;; So `sm-initialize' will run *after* `package-initialize'
 
 
 ;; (added as per recommendation from `auto-compile' documentation)
