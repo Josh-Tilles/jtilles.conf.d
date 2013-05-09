@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(apropos-do-all t)
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups"))))
- '(el-get-sources (quote ((:name packed :type github :pkgname "tarsius/packed" :checkout "0.3.3") (:name auto-compile :type github :pkgname "tarsius/auto-compile" :depends (packed)) (:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah"))))
+ '(el-get-sources (quote ((:name packed :type github :pkgname "tarsius/packed" :checkout "0.3.3") (:name auto-compile :type github :pkgname "tarsius/auto-compile" :depends (packed)) (:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah") (:name ibuffer-vc :checkout "0.6"))))
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(ido-use-virtual-buffers t)
