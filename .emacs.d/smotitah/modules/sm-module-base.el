@@ -26,6 +26,10 @@
   (bind-key "C-M-s" #'isearch-forward)
   (bind-key "C-M-r" #'isearch-backward)
 
+  (smex-initialize)
+  (bind-key "M-x" #'smex)
+  (bind-key "M-X" #'smex-major-mode-commands)
+
   )
 
 (sm-provide :module base)

@@ -55,6 +55,8 @@
 (add-hook 'after-init-hook #'sm-initialize)
 ;; So `sm-initialize' will run *after* `package-initialize'
 
+(defvar jpt:packages-I-expect-to-be-installed
+  '(smex))
 
 ;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
