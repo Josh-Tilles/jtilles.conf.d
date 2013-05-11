@@ -13,6 +13,7 @@
  '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
  '(mouse-yank-at-point t)
+ '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/"))))
  '(recentf-mode t)
  '(save-place t nil (saveplace))
