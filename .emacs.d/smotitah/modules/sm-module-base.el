@@ -26,6 +26,12 @@
   (bind-key "C-M-s" #'isearch-forward)
   (bind-key "C-M-r" #'isearch-backward)
 
+  ;; http://irreal.org/blog/?p=1781
+  (bind-key "C-h C-f" #'find-function)
+  (bind-key "C-h C-k" #'find-function-on-key)
+  (bind-key "C-h C-v" #'find-variable)
+  (bind-key "C-h C-l" #'find-library)
+
   (smex-initialize)
   (bind-key "M-x" #'smex)
   (bind-key "M-X" #'smex-major-mode-commands)
