@@ -56,7 +56,11 @@
 ;; So `sm-initialize' will run *after* `package-initialize'
 
 (defvar jpt:packages-I-expect-to-be-installed
-  '(smex))
+  '(smex 
+    ido-vertical-mode 
+    projectile
+    s
+    dash))
 
 ;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
