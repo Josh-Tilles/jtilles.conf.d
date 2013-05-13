@@ -1,0 +1,6 @@
+# I don't want to put *derived data* under source control.
+Library/Autosave Information
+Library/Caches
+Library/Logs
+Library/Saved Application State
+
