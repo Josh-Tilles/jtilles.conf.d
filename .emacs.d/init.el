@@ -62,7 +62,7 @@
     s
     dash))
 
-;; (added as per recommendation from `auto-compile' documentation)
+;;;;;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
