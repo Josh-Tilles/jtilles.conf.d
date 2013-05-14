@@ -16,7 +16,7 @@
                     "elisp"
                     ;;"pythonista"
                     ;;"sacrilege"
-                    )
+                    "UI")
 
 ;;; Delete this block if the profile is unmanaged
 (sm-profile-post (vs-mac)
