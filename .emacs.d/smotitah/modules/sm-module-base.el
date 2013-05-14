@@ -4,7 +4,7 @@
 
 (sm-module "base"
            ;; add the packages required by your basic configuration here
-           :require-packages nil
+           :require-packages '(smex)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
            :unmanaged-p nil)
@@ -31,10 +31,6 @@
   (bind-key "C-h C-k" #'find-function-on-key)
   (bind-key "C-h C-v" #'find-variable)
   (bind-key "C-h C-l" #'find-library)
-
-  (smex-initialize)
-  (bind-key "M-x" #'smex)
-  (bind-key "M-X" #'smex-major-mode-commands)
 
   )
 
