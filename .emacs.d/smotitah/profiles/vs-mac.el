@@ -12,8 +12,11 @@
 
 ;;; Delete this block if the profile is unmanaged
 ;; TODO: add the modules you want to load here
-(sm-require-modules "base" "elisp" ;"pythonista"
-		    )
+(sm-require-modules "base"
+                    "elisp"
+                    ;;"pythonista"
+                    ;;"sacrilege"
+                    )
 
 ;;; Delete this block if the profile is unmanaged
 (sm-profile-post (vs-mac)
