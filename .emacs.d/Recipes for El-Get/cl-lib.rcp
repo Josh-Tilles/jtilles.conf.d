@@ -1,2 +1,2 @@
 (:name cl-lib
-       :builtin "24.3")
+       :builtin 24.3)
