@@ -68,7 +68,9 @@
     dash
     gitignore-mode
     gitconfig-mode
-    git-commit-mode))
+    git-commit-mode
+    xml-gen ;;xmlgen
+    ))
 
 ;;;;;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
