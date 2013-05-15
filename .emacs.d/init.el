@@ -9,7 +9,7 @@
   "The name of the file that holds my customizations.")
 ;; Other possible names are `customizations.el',
 
-(defconst +EL-GET_RECIPES_DIRECTORY+ "recipes for el-get"
+(defconst +EL-GET_RECIPES_DIRECTORY+ "Recipes for El-Get"
   "The name of the directory that holds my local el-get `.rcp' files.")
 
 ;; (Common Lisp has the convention of bookending names of constants with `+'.)
