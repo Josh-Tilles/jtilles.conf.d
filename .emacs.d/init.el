@@ -65,7 +65,10 @@
     ido-vertical-mode 
     projectile
     s
-    dash))
+    dash
+    gitignore-mode
+    gitconfig-mode
+    git-commit-mode))
 
 ;;;;;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
