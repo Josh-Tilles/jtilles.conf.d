@@ -8,12 +8,15 @@
 (defconst +CUSTOM_FILE-NAME+ "custom.el"
   "The name of the file that holds my customizations.")
 ;; Other possible names are `customizations.el',
+
+(defconst +EL-GET_RECIPES_DIRECTORY+ "recipes for el-get"
+  "The name of the directory that holds my local el-get `.rcp' files.")
+
 ;; (Common Lisp has the convention of bookending names of constants with `+'.)
 
 (set 'custom-file (expand-file-name +CUSTOM_FILE-NAME+ jpt:emacs-config-dir))
 ;;(load custom-file 'no-error)
 (load custom-file) ; squawk if it doesn't exist
-
 
 (defun jpt:bootstrap-el-get ()
   (add-to-list 'load-path 
@@ -27,6 +30,8 @@
       (eval-print-last-sexp))))
 
 (jpt:bootstrap-el-get)
+(add-to-list 'el-get-recipe-path 
+             (expand-file-name +EL-GET_RECIPES_DIRECTORY+ jpt:emacs-config-dir))
 ;;(el-get 'sync) ;set up ALL THE THINGS
 
 

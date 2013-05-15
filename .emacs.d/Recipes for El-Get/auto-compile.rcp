@@ -1,0 +1,7 @@
+(:name auto-compile
+       :depends (cl-lib packed)
+       :type github
+       :username "tarsius"
+       :pkgname "tarsius/auto-compile"
+       :website "http://tarsius.github.com/auto-compile" ;; down?
+       :description "Automatically compile Emacs Lisp libraries")
