@@ -3,6 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(after-save-hook (quote (executable-make-buffer-file-executable-if-script-p)))
  '(apropos-do-all t)
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups"))))
  '(el-get-sources (quote ((:name package :post-init nil) (:name cl-lib :type builtin) (:name packed :checkout "0.3.3") (:name smotitah :type github :pkgname "MerelyAPseudonym/smotitah") (:name ibuffer-vc :checkout "0.6") (:name helm :checkout "v1.5.2") (:name smex :type elpa) (:name ido-vertical-mode :description "makes ido-mode display vertically" :type elpa) (:name s :checkout "1.5.0") (:name dash :checkout "1.3.2") (:name projectile :checkout "v0.9.1") (:name undo-tree :repo ("gnu" . "http://elpa.gnu.org/packages/") :type elpa) (:name evil :type elpa :checkout "1.0.1" :repo ("marmalade" . "http://marmalade-repo.org/packages/")) (:name ido-ubiquitous :checkout "v1.6" :repo ("marmalade" . "http://marmalade-repo.org/packages/")) (:name gitconfig-mode :type elpa) (:name gitignore-mode :type elpa) (:name git-commit-mode :type elpa) (:name xml-gen :type elpa) (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre130510.tgz" :build/darwin ("cd ProofGeneral && make clean")))))
