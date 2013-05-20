@@ -17,6 +17,7 @@
  '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(recentf-mode t)
+ '(recentf-save-file "~/.emacs.d/recentf" nil nil "I'd rather not clutter up my home dir with the default: ~/.recentf")
  '(save-place t nil (saveplace))
  '(save-place-file "~/.emacs.d/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
  '(show-paren-mode t)
