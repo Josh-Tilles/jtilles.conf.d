@@ -17,5 +17,7 @@ export PATH="$HOME/.cabal/bin:$PATH"
 # (La|Xe)TeX
 export PATH='/usr/local/texlive/2012/bin/x86_64-darwin':$PATH
 
+. $HOME/.profile.d/ruby.sh
+
 # example: latexdef -f newcommand
 alias latexdef='texdef --tex latex'
