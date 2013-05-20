@@ -70,6 +70,8 @@
     gitconfig-mode
     git-commit-mode
     xml-gen ;;xmlgen
+    clojure-mode
+    nrepl-mode
     ))
 
 ;;;;;; (added as per recommendation from `auto-compile' documentation)
