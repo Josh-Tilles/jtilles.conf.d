@@ -72,6 +72,7 @@
     xml-gen ;;xmlgen
     clojure-mode
     nrepl-mode
+    sml-mode
     ))
 
 ;;;;;; (added as per recommendation from `auto-compile' documentation)
