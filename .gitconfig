@@ -12,6 +12,7 @@
 	trustExitCode = true
 [alias]
 	unstage = reset HEAD --
+	gitl = log --pretty=oneline --graph --decorate --all
 [push]
 	default = upstream
 [color]
