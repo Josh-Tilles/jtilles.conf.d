@@ -12,6 +12,10 @@
   
   (add-hook 'emacs-lisp-mode-hook #'turn-on-eldoc-mode)
   
+  ;; for some reason, the `prog-mode' keybindings aren't coming through...
+  (bind-key "C-j" #'newline emacs-lisp-mode-map)
+  (bind-key "RET" #'newline-and-indent emacs-lisp-mode-map)
+
   )
 
 (sm-provide :module elisp)
