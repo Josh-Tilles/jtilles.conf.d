@@ -33,6 +33,11 @@
   (bind-key "C-h C-v" #'find-variable)
   (bind-key "C-h C-l" #'find-library)
 
+  ;; swap defaults of RET and C-j
+  (bind-key "C-j" #'newline prog-mode-map)
+  (bind-key "RET" #'newline-and-indent prog-mode-map)
+  ;; many places recommend `reindent-then-newline-and-indent' instead.
+
   )
 
 (sm-provide :module base)
