@@ -18,6 +18,10 @@
 
 (sm-module-post (base)
   ;; TODO Write the code that should be executed AFTER the packages are initialized
+
+  ;; Sets $MANPATH, $PATH, and `exec-path' from my shell, but only on OS X.
+  (when (memq window-system '(mac ns))
+    (exec-path-from-shell-initialize))
   
   ;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
   (bind-key "M-/" #'hippie-expand)
