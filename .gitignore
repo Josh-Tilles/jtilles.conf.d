@@ -4,3 +4,7 @@ Library/Caches
 Library/Logs
 Library/Saved Application State
 
+# I don't want to put PostgreSQL account information under source control.
+.pgpass
+# ignore the history of my PostgreSQL console
+.psql_history
