@@ -1,6 +1,10 @@
 # INTERACTIVE SHELL CONFIGURATION
 
 export TERM=xterm-256color
+# @NOT_PORTABLE ?
+#     If I were to clone my dotfiles to another computer, it seems
+#     like $TERM should be unset by default. Like, if I needed to SSH
+#     to a very bare-bones server that provided a simpler terminal.
 
 
 
