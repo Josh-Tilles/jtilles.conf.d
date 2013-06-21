@@ -43,6 +43,10 @@
   (bind-key "RET" #'newline-and-indent prog-mode-map)
   ;; many places recommend `reindent-then-newline-and-indent' instead.
 
+  ;; workaround. Cf. http://stackoverflow.com/questions/16801689/why-is-it-that-these-prog-mode-keybindings-arent-working-in-emacs-lisp-mode/16809157#16809157
+  (unless (keymap-parent lisp-mode-shared-map)
+    (set-keymap-parent lisp-mode-shared-map prog-mode-map))
+
   )
 
 (sm-provide :module base)

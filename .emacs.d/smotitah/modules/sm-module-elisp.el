@@ -22,9 +22,6 @@
   (eval-after-load 'elisp-slime-nav
     '(diminish 'elisp-slime-nav-mode))
   
-  ;; for some reason, the `prog-mode' keybindings aren't coming through...
-  (bind-key "C-j" #'newline emacs-lisp-mode-map)
-  (bind-key "RET" #'newline-and-indent emacs-lisp-mode-map)
 
   )
 
