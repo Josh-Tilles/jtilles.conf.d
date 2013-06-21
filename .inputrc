@@ -1,2 +1,5 @@
-set completion-ignore-case on
+# Use the customizations provided by your distro.
+#   http://www.reddit.com/r/linux/comments/jmpwp/after_2_years_in_bash_discovering_this_setting_is/c2ddalx?context=3
+$include /etc/inputrc
 
+set completion-ignore-case on
