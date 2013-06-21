@@ -5,7 +5,8 @@
 (sm-module "base"
            ;; add the packages required by your basic configuration here
            :require-packages '(smex
-                               ido-ubiquitous)
+                               ido-ubiquitous
+                               expand-region)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
            :unmanaged-p nil)
