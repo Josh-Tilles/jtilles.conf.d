@@ -33,6 +33,8 @@
   (bind-key "C-M-s" #'isearch-forward)
   (bind-key "C-M-r" #'isearch-backward)
 
+  (bind-key "M-?" #'undo) ; a pseudo `hippie-UNexpand'
+
   ;; http://irreal.org/blog/?p=1781
   (bind-key "C-h C-f" #'find-function)
   (bind-key "C-h C-k" #'find-function-on-key)
