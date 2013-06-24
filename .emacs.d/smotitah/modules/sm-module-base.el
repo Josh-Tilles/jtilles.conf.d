@@ -6,7 +6,8 @@
            ;; add the packages required by your basic configuration here
            :require-packages '(smex
                                ido-ubiquitous
-                               expand-region)
+                               expand-region
+                               ace-jump-mode)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
            :unmanaged-p nil)
