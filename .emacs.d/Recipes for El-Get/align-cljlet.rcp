@@ -1,0 +1,5 @@
+(:name align-cljlet
+       :type github
+       :username "gstamp"
+       :pkgname "gstamp/align-cljlet"
+       :description "Align clojure let forms.")
