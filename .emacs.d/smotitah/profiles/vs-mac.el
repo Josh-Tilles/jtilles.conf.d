@@ -18,6 +18,7 @@
                     "elisp"
                     ;;"pythonista"
                     ;;"sacrilege"
+                    "clojurian"
                     "UI")
 
 ;;; Delete this block if the profile is unmanaged
