@@ -1,0 +1,4 @@
+(:name cyberpunk-theme
+       :type github
+       :username "n3mo"
+       :pkgname "n3mo/cyberpunk-theme.el")
