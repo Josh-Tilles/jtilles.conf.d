@@ -1,14 +1,14 @@
 ;;;; Module clojurian
 (sm-module clojurian
            :unmanaged-p nil
-           :require-packages '(clojure-mode nrepl paredit align-cljlet))
+           :require-packages '(clojure-mode nrepl align-cljlet))
 
 (sm-module-pre (clojurian)
   ;; TODO insert your pre-package-initialization code here
   )
 
 (sm-module-post (clojurian)
-  (add-hook 'clojure-mode-hook #'paredit-mode)
+  ;; TODO insert your post-package-initialization code here
   )
 
 (sm-provide :module clojurian)

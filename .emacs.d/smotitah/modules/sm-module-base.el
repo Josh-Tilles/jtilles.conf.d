@@ -7,6 +7,7 @@
            :require-packages '(smex
                                ido-ubiquitous
                                expand-region
+                               paredit
                                ace-jump-mode)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
@@ -49,6 +50,8 @@
   ;; workaround. Cf. http://stackoverflow.com/questions/16801689/why-is-it-that-these-prog-mode-keybindings-arent-working-in-emacs-lisp-mode/16809157#16809157
   (unless (keymap-parent lisp-mode-shared-map)
     (set-keymap-parent lisp-mode-shared-map prog-mode-map))
+
+  (add-hook 'lisp-mode-hook #'paredit-mode)
 
   )
 
