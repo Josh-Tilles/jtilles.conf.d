@@ -8,6 +8,7 @@
                                ido-ubiquitous
                                expand-region
                                paredit
+                               undo-tree
                                ace-jump-mode)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
