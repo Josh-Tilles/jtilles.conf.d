@@ -6,8 +6,6 @@
         <string>emacs-daemon</string>
         <key>RunAtLoad</key>
         <true/>
-        <key>KeepAlive</key>
-        <true/>
         <key>ProgramArguments</key>
         <array>
                 <string>/usr/local/bin/emacs</string>
