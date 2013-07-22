@@ -3,7 +3,6 @@
 	email = MerelyAPseudonym@gmail.com
 [core]
 	excludesfile = /Users/jtilles/.gitignore_global
-	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
