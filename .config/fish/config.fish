@@ -1,3 +1,3 @@
 if status --is-login
-	set PATH /usr/local/bin /usr/local/sbin $PATH
+	set --export PATH /usr/local/bin /usr/local/sbin $PATH
 end
