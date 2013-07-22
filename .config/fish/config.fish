@@ -5,7 +5,7 @@ if status --is-login
 end
 
 if status --is-interactive
-	set -x EDITOR 'choc -w'
+	set -x EDITOR 'emacsclient --tty'
 	set -x PSQL_EDITOR 'vim -c "set ft=sql"'
 	set -x PAGER vimpager
 end
