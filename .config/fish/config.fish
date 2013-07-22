@@ -3,3 +3,9 @@ if status --is-login
         # -x is short for --export
         set -x XDG_CACHE_HOME ~/Library/Caches
 end
+
+if status --is-interactive
+	set -x EDITOR 'choc -w'
+	set -x PSQL_EDITOR 'vim -c "set ft=sql"'
+	set -x PAGER vimpager
+end

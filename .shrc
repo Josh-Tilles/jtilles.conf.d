@@ -6,7 +6,12 @@ export TERM=xterm-256color
 #     like $TERM should be unset by default. Like, if I needed to SSH
 #     to a very bare-bones server that provided a simpler terminal.
 
+export EDITOR='choc -w'
 
+# Enable syntax-highlighting when running `\edit` from the PostgreSQL console.
+export PSQL_EDITOR='vim -c "set ft=sql"'
+
+export PAGER=vimpager
 
 #alias Emacs='osascript -e \'tell app "Emacs" to activate\';/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n'
 
@@ -16,3 +21,6 @@ qfind () {
 	find . -exec grep -l $1 {} \;
 	return 0
 }
+
+# example: latexdef -f newcommand
+alias latexdef='texdef --tex latex'
