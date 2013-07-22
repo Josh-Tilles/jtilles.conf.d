@@ -2,6 +2,8 @@
 
 export ENV=$HOME/.shrc
 
+export XDG_CACHE_HOME="$HOME/Library/Caches"
+
 export EDITOR='choc -w'
 export PSQL_EDITOR='vim -c "set ft=sql"'
 export PAGER=vimpager
