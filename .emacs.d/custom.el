@@ -27,6 +27,7 @@
  '(show-paren-mode t)
  '(sm-base-directory "~/.emacs.d/smotitah/")
  '(smex-save-file "~/.emacs.d/smex-items" nil nil "I'd rather not clutter my home dir with the default: ~/.smex-items")
+ '(tab-always-indent (quote complete))
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
 (custom-set-faces
