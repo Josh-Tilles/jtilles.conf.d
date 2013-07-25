@@ -54,6 +54,9 @@
 
   (add-hook 'lisp-mode-hook #'paredit-mode)
 
+  ;; Automatically wrap lines that are too long. (esp. comments)
+  (add-hook 'prog-mode-hook #'auto-fill-mode)
+
   )
 
 (sm-provide :module base)
