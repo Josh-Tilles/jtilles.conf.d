@@ -3,6 +3,11 @@
 export ENV=$HOME/.shrc
 
 export XDG_CACHE_HOME="$HOME/Library/Caches"
+# XDG_DATA_HOME defaults to "$HOME/.local/share"
+# XDG_CONFIG_HOME defaults to "$HOME/.config"
+# XDG_DATA_DIRS defaults to "/usr/local/share/:/usr/share/"
+# XDG_CONFIG_DIRS defaults to "/etc/xdg"
+# Cf. http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
 
 export PATH='/usr/local/bin':'/usr/local/sbin':$PATH
 

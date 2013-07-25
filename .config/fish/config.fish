@@ -1,7 +1,12 @@
 if status --is-login
 	set --export PATH /usr/local/bin /usr/local/sbin $PATH
-        # -x is short for --export
-        set -x XDG_CACHE_HOME ~/Library/Caches
+	# -x is short for --export
+	set -x XDG_CACHE_HOME ~/Library/Caches
+	# XDG_DATA_HOME defaults to "$HOME/.local/share"
+	# XDG_CONFIG_HOME defaults to "$HOME/.config"
+	# XDG_DATA_DIRS defaults to "/usr/local/share/:/usr/share/"
+	# XDG_CONFIG_DIRS defaults to "/etc/xdg"
+	# Cf. http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
 end
 
 if status --is-interactive
