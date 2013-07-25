@@ -9,7 +9,8 @@
                                expand-region
                                paredit
                                undo-tree
-                               ace-jump-mode)
+                               ace-jump-mode
+                               browse-kill-ring)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
            :unmanaged-p nil)
