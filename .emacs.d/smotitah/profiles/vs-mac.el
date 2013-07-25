@@ -17,7 +17,7 @@
 (sm-require-modules "base"
                     "elisp"
                     ;;"pythonista"
-                    ;;"sacrilege"
+                    "sacrilege"
                     "clojurian"
                     "UI")
 

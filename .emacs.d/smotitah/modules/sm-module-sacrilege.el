@@ -12,6 +12,3 @@
   )
 
 (sm-provide :module sacrilege)
-               
-               
-               
