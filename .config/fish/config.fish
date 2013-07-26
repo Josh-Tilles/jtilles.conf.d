@@ -12,5 +12,4 @@ end
 if status --is-interactive
 	set -x EDITOR 'emacsclient -c'
 	set -x PSQL_EDITOR 'vim -c "set ft=sql"'
-	set -x PAGER vimpager
 end
