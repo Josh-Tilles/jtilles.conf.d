@@ -1,1 +1,1 @@
-set --export PATH (brew --prefix ruby)/bin
+set --export PATH (brew --prefix ruby)/bin $PATH
