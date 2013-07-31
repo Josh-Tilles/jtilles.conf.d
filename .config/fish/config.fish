@@ -7,6 +7,8 @@ if status --is-login
 	# XDG_DATA_DIRS defaults to "/usr/local/share/:/usr/share/"
 	# XDG_CONFIG_DIRS defaults to "/etc/xdg"
 	# Cf. http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+
+	. ~/.profile.d/ruby.fish
 end
 
 if status --is-interactive
