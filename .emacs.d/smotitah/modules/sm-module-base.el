@@ -10,7 +10,8 @@
                                paredit
                                undo-tree
                                ace-jump-mode
-                               browse-kill-ring)
+                               browse-kill-ring
+                               flyspell)
            ;; set this to t if you want to manage this module yourself
            ;; instead of using the builtin package loading infrastructure
            :unmanaged-p nil)
