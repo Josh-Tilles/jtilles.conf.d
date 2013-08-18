@@ -8,7 +8,7 @@
 ;;; Delete this block if the profile is unmanaged
 (sm-profile-pre (vs-mac)
   ;; TODO write the code to be executed BEFORE the modules are loaded
-  (setq-default sql-product 'postgresql)
+  (setq-default sql-product 'postgres)
   ;; could also do (eval-after-load "sql" '(sql-set-product 'postgres))
   )
 
