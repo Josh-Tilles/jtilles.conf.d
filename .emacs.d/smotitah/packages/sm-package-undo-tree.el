@@ -4,8 +4,7 @@
             :unmanaged-p t)
 
 ;; (I expect the `diminish' feature to already be loaded.)
-
-(when global-undo-tree-mode
-  (diminish 'undo-tree))
+(eval-after-load 'undo-tree
+  '(diminish 'undo-tree-mode))
 
 (sm-provide :package undo-tree)
