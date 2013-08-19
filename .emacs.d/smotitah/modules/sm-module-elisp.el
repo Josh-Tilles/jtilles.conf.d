@@ -21,7 +21,8 @@
   ;; known in the modeline is unnecessary.
   (eval-after-load 'elisp-slime-nav
     '(diminish 'elisp-slime-nav-mode))
-  
+
+  (add-hook 'emacs-lisp-mode-hook #'paredit-mode)
 
   )
 
