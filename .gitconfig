@@ -2,7 +2,7 @@
 	name = Josh Tilles
 	email = MerelyAPseudonym@gmail.com
 [core]
-	excludesfile = /Users/jtilles/.gitignore_global
+	excludesfile = /Users/joshua.tilles/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
