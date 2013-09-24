@@ -14,6 +14,13 @@
 
 ;; (Common Lisp has the convention of bookending names of constants with `+'.)
 
+
+(defvar jpt:savefiles-dir (expand-file-name "savefiles" jpt:emacs-config-dir)
+  "This folder stores all the automatically generated save/history-files.")
+
+(unless (file-exists-p jpt:savefiles-dir)
+  (make-directory jpt:savefiles-dir))
+
 (set 'custom-file (expand-file-name +CUSTOM_FILE-NAME+ jpt:emacs-config-dir))
 ;;(load custom-file 'no-error)
 (load custom-file) ; squawk if it doesn't exist
