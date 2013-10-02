@@ -1,6 +1,2 @@
 # Added *this* line because Homebrew instructed me to.
 export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"
-
-# Always show me the *actual* Git commands that are being run.
-export GITFLOW_FLAG_SHOWCOMMANDS=yes
-
