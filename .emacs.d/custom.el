@@ -30,6 +30,7 @@
  '(save-place-file "~/.emacs.d/savefiles/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
  '(show-paren-mode t)
  '(sm-base-directory "~/.emacs.d/smotitah/")
+ '(smartparens-global-mode t)
  '(smex-save-file "~/.emacs.d/savefiles/smex-items" nil nil "I'd rather not clutter my home dir with the default: ~/.smex-items")
  '(tab-always-indent (quote complete))
  '(tool-bar-mode nil)
