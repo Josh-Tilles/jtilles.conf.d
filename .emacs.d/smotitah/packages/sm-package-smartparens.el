@@ -1,7 +1,7 @@
 ;;;; Package smartparens
 (sm-package smartparens
-            :package-manager "package"
-            :unmanaged-p nil)
+            ;;:package-manager "el-get"
+            :unmanaged-p t)
 
 ;;; TODO insert your package initialization code here
 
