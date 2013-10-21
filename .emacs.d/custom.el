@@ -32,6 +32,7 @@
  '(sm-base-directory "~/.emacs.d/smotitah/")
  '(smartparens-global-mode nil)
  '(smex-save-file "~/.emacs.d/savefiles/smex-items" nil nil "I'd rather not clutter my home dir with the default: ~/.smex-items")
+ '(sp-base-key-bindings (quote paredit))
  '(tab-always-indent (quote complete))
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
