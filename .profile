@@ -9,7 +9,7 @@ export XDG_CACHE_HOME="$HOME/Library/Caches"
 # XDG_CONFIG_DIRS defaults to "/etc/xdg"
 # Cf. http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
 
-export PATH='/usr/local/bin':'/usr/local/sbin':$PATH
+export PATH="~/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Haskell executables
 export PATH="$HOME/Library/Haskell/bin:$PATH"

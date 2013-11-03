@@ -1,5 +1,5 @@
 if status --is-login
-	set --export PATH /usr/local/bin /usr/local/sbin $PATH
+	set --export PATH ~/bin /usr/local/bin /usr/local/sbin $PATH
 	# -x is short for --export
 	set -x XDG_CACHE_HOME ~/Library/Caches
 	# XDG_DATA_HOME defaults to "$HOME/.local/share"
