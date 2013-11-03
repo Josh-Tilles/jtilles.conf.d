@@ -7,7 +7,7 @@
            :require-packages '(smex
                                ido-ubiquitous
                                expand-region
-                               paredit
+                               smartparens
                                undo-tree
                                ace-jump-mode
                                browse-kill-ring)
@@ -53,7 +53,7 @@
   (unless (keymap-parent lisp-mode-shared-map)
     (set-keymap-parent lisp-mode-shared-map prog-mode-map))
 
-  (add-hook 'lisp-mode-hook #'paredit-mode)
+  (add-hook 'lisp-mode-hook #'smartparens-strict-mode)
 
   ;; Automatically wrap lines that are too long. (esp. comments)
   (add-hook 'prog-mode-hook #'auto-fill-mode)
