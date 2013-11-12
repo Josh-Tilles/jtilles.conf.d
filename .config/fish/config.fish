@@ -9,6 +9,7 @@ if status --is-login
 	# Cf. http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
 
 	. ~/.profile.d/ruby.fish
+	. ~/.profile.d/rbenv.fish
 end
 
 if status --is-interactive

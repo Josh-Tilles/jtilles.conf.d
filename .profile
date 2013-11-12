@@ -21,3 +21,4 @@ export PATH="$HOME/.cabal/bin:$PATH"
 export PATH='/usr/local/texlive/2012/bin/x86_64-darwin':$PATH
 
 . $HOME/.profile.d/ruby.sh
+. $HOME/.profile.d/rbenv.sh
