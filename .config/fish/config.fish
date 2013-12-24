@@ -10,6 +10,7 @@ if status --is-login
 
 	. ~/.profile.d/ruby.fish
 	. ~/.profile.d/rbenv.fish
+	. ~/.profile.d/PostgresApp.fish
 end
 
 if status --is-interactive
