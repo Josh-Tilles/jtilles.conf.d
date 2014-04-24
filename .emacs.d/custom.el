@@ -31,7 +31,7 @@
      (:name projectile :type elpa :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/"))
      (:name undo-tree :type elpa :version "0.6.5")
-     (:name evil :checkout "1.0.8" :type elpa)
+     (:name evil :checkout "1.0.9")
      (:name ido-ubiquitous :checkout "v2.9" :type elpa)
      (:name gitconfig-mode :type elpa :version "0.4-SNAPSHOT" :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/"))
