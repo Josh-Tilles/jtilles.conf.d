@@ -18,3 +18,5 @@
 	ui = auto
 [gitflow]
 	showcommands = yes
+[credential]
+	helper = osxkeychain
