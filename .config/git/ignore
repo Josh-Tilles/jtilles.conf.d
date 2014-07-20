@@ -1,22 +1,22 @@
-*~
+# Automatically created by GitHub for Mac
+
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# IntelliJ IDEA project metadata
-atlassian-ide-plugin.xml
-*.iml
-.idea/
+# Icon must end with two \r
+Icon
 
-.gradle/
-# Take a guess.
+# Thumbnails
+._*
 
-# Eclipse project metadata
-.project/
-.settings
-.classpath
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# Java (or JVM in general?) generated/built files
-*.class
-./target/
-build/
-./dist/
-# I hope the above notation means "directories at root of project"
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
