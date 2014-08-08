@@ -23,24 +23,29 @@
      (:name ibuffer-vc :checkout "0.7" :type elpa)
      (:name helm :checkout "v1.5.2")
      (:name smex :checkout "3.0" :type elpa)
-     (:name ido-vertical-mode :type elpa :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name ido-vertical-mode :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa)
      (:name s :checkout "1.8.0" :type elpa)
      (:name dash :checkout "2.4.0" :type elpa)
-     (:name projectile :type elpa :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name projectile :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa)
      (:name undo-tree :type elpa :version "0.6.5")
      (:name evil :checkout "1.0.9")
      (:name ido-ubiquitous :checkout "v2.9" :type elpa)
-     (:name gitconfig-mode :type elpa :version "0.4-SNAPSHOT" :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
-     (:name gitignore-mode :type elpa :version "0.2-SNAPSHOT" :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name gitconfig-mode :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa :version "0.4-SNAPSHOT")
+     (:name gitignore-mode :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa :version "0.2-SNAPSHOT")
      (:name git-commit-mode :checkout "git-commit-mode-0.13" :type elpa)
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
-     (:name clojure-mode :type elpa :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name clojure-mode :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa)
      (:name cider :checkout "v0.4.0" :type elpa)
      (:name sml-mode :compile
             (".*\\.el$")
@@ -50,16 +55,18 @@
      (:name elisp-slime-nav :checkout "0.6" :type elpa)
      (:name diminish :type elpa :version "0.44")
      (:name exec-path-from-shell :checkout "1.6" :type elpa)
-     (:name expand-region :type elpa :repo
+     (:name expand-region :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :version "0.10-SNAPSHOT")
+            :type elpa :version "0.10-SNAPSHOT")
      (:name ace-jump-mode :checkout "v2.0RC" :type elpa)
-     (:name cyberpunk-theme :type elpa :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name cyberpunk-theme :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa)
      (:name align-cljlet :type elpa :version "0.3")
      (:name haskell-mode :checkout "v13.10")
-     (:name browse-kill-ring :type elpa :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/"))
+     (:name browse-kill-ring :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/")
+            :type elpa)
      (:name smartparens :type elpa :version "1.6.1"))))
  '(evil-want-C-u-scroll t)
  '(flyspell-use-meta-tab nil)
