@@ -61,14 +61,11 @@ El-Get.")
 ;;(el-get 'sync) ;set up ALL THE THINGS
 
 
-;; a few packages are special, like el-get, smotitah, use-package, and ...?
-;; and so I configure them here, at the "top level".
-
-
-(el-get 'sync 'use-package)
 ;; The `bind-key' package is (currently) distributed as a part of jwiegley's
 ;; `use-package', but I want to use it in my configuration as though it was
 ;; native. In order to do that, I load it early in the configuration process.
+(add-to-list 'load-path (expand-file-name "use-package"
+                                          jpt:manual-installations-dir))
 (require 'bind-key)
 
 
