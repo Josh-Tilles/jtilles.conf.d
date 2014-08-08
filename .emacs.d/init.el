@@ -70,7 +70,9 @@ El-Get.")
 
 
 ;; Set up the smotitah configuration framework
-(el-get 'sync 'smotitah)
+(add-to-list 'load-path (expand-file-name "smotitah"
+                                          jpt:manual-installations-dir))
+(require 'smotitah)
 (add-hook 'after-init-hook #'sm-initialize)
 ;; So `sm-initialize' will run *after* `package-initialize'
 
