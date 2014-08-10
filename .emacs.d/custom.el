@@ -18,7 +18,6 @@
    (quote
     ((:name package :post-init nil)
      (:name cl-lib :type builtin)
-     (:name packed :checkout "0.3.4")
      (:name auto-compile :checkout "1.0.12")
      (:name ibuffer-vc :checkout "0.7" :type elpa)
      (:name helm :checkout "v1.5.2")
