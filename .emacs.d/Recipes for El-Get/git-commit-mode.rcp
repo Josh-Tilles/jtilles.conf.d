@@ -1,6 +1,0 @@
-(:name git-commit-mode
-       :type github
-       :username "lunaryorn"
-       :pkgname "lunaryorn/git-modes"
-       :autoloads "git-commit-mode.el"
-       :description "A GNU Emacs major mode for editing Git commit messages according to the guidelines by Tim Pope. Integrates into Magit.")

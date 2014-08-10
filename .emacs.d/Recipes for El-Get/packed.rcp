@@ -1,7 +1,0 @@
-(:name packed
-       :depends cl-lib
-       :type github
-       :username "tarsius"
-       :pkgname "tarsius/packed"
-       :website "http://tarsius.github.com/packed" ;; currently down?
-       :description "Package manager agnostic Emacs Lisp package utilities")

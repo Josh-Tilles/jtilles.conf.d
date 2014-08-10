@@ -1,4 +1,0 @@
-(:name ido-vertical-mode
-       :description "makes ido-mode display vertically"
-       :type emacsmirror
-       :username "rson")
