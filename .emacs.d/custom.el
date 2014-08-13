@@ -41,8 +41,8 @@
      (:name git-commit-mode :checkout "git-commit-mode-0.13" :type elpa)
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
-     (:name clojure-mode :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
+     (:name clojure-mode :checkout "2.2.0" :repo
+            ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/")
             :type elpa)
      (:name cider :checkout "v0.4.0" :type elpa)
      (:name sml-mode :compile
