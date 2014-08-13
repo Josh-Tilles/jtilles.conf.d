@@ -52,7 +52,9 @@
             :version "6.4")
      (:name elisp-slime-nav :checkout "0.6" :type elpa)
      (:name diminish :type elpa :version "0.44")
-     (:name exec-path-from-shell :checkout "1.6" :type elpa)
+     (:name exec-path-from-shell :checkout "1.7" :repo
+            ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/")
+            :type elpa)
      (:name expand-region :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/")
             :type elpa :version "0.10-SNAPSHOT")
