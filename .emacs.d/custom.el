@@ -25,7 +25,7 @@
             ("MELPA" . "http://melpa.milkbox.net/packages/")
             :type elpa)
      (:name s :checkout "1.8.0" :type elpa)
-     (:name dash :checkout "2.4.0" :type elpa)
+     (:name dash :checkout "2.8.0" :type elpa)
      (:name projectile :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/")
             :type elpa)
