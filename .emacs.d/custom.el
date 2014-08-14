@@ -32,13 +32,7 @@
      (:name undo-tree :type elpa :version "0.6.5")
      (:name evil :checkout "1.0.9")
      (:name ido-ubiquitous :checkout "v2.9" :type elpa)
-     (:name gitconfig-mode :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa :version "0.4-SNAPSHOT")
-     (:name gitignore-mode :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa :version "0.2-SNAPSHOT")
-     (:name git-commit-mode :checkout "git-commit-mode-0.13" :type elpa)
+     (:name git-modes :checkout "0.15.0" :type elpa)
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
      (:name clojure-mode :checkout "2.2.0" :type elpa)
