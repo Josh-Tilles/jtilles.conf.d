@@ -32,7 +32,7 @@
      (:name undo-tree :type elpa :version "0.6.5")
      (:name evil :checkout "1.0.9")
      (:name ido-ubiquitous :checkout "v2.9" :type elpa)
-     (:name git-modes :checkout "0.15.0" :type elpa)
+     (:name git-modes :checkout "0.15.0")
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
      (:name clojure-mode :checkout "2.2.0" :type elpa)
