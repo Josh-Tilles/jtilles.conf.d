@@ -41,9 +41,7 @@
      (:name git-commit-mode :checkout "git-commit-mode-0.13" :type elpa)
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
-     (:name clojure-mode :checkout "2.2.0" :repo
-            ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/")
-            :type elpa)
+     (:name clojure-mode :checkout "2.2.0" :type elpa)
      (:name cider :checkout "v0.4.0" :type elpa)
      (:name sml-mode :compile
             (".*\\.el$")
@@ -52,9 +50,7 @@
             :version "6.4")
      (:name elisp-slime-nav :checkout "0.6" :type elpa)
      (:name diminish :type elpa :version "0.44")
-     (:name exec-path-from-shell :checkout "1.7" :repo
-            ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/")
-            :type elpa)
+     (:name exec-path-from-shell :checkout "1.7" :type elpa)
      (:name expand-region :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/")
             :type elpa :version "0.10-SNAPSHOT")
@@ -83,7 +79,7 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
-     ("marmalade" . "http://marmalade-repo.org/packages/"))))
+     ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/"))))
  '(recentf-mode t)
  '(recentf-save-file "~/.emacs.d/savefiles/recentf" nil nil "I'd rather not clutter up my home dir with the default: ~/.recentf")
  '(require-final-newline (quote ask))
