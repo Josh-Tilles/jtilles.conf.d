@@ -3,9 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(after-save-hook
-   (quote
-    (executable-make-buffer-file-executable-if-script-p)))
  '(apropos-do-all t)
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups"))))
  '(blink-matching-paren nil nil nil "I don't like the cursor jumping around on me.")
