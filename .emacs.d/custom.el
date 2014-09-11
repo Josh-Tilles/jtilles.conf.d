@@ -3,7 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(apropos-do-all t)
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups"))))
  '(blink-matching-paren nil nil nil "I don't like the cursor jumping around on me.")
  '(comment-auto-fill-only-comments t)
@@ -58,14 +57,11 @@
  '(evil-want-C-u-scroll t)
  '(flyspell-use-meta-tab nil)
  '(global-undo-tree-mode t)
- '(ido-enable-flex-matching t)
- '(ido-mode (quote both) nil (ido))
  '(ido-save-directory-list-file "~/.emacs.d/savefiles/ido.last")
  '(ido-use-filename-at-point (quote guess))
  '(ido-use-url-at-point nil)
  '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
- '(mouse-yank-at-point t)
  '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives
    (quote
@@ -75,15 +71,12 @@
  '(recentf-save-file "~/.emacs.d/savefiles/recentf" nil nil "I'd rather not clutter up my home dir with the default: ~/.recentf")
  '(require-final-newline (quote ask))
  '(save-place t nil (saveplace))
- '(save-place-file "~/.emacs.d/savefiles/places" nil nil "I'd rather not clutter my home dir with the default: ~/.emacs-places")
  '(show-paren-mode t)
  '(sm-base-directory "~/.emacs.d/smotitah/")
  '(smartparens-global-mode nil)
  '(smex-save-file "~/.emacs.d/savefiles/smex-items" nil nil "I'd rather not clutter my home dir with the default: ~/.smex-items")
  '(sp-base-key-bindings (quote paredit))
- '(tab-always-indent (quote complete))
- '(tool-bar-mode nil)
- '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
+ '(tab-always-indent (quote complete)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

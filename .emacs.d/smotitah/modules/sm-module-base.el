@@ -27,14 +27,14 @@
   ;; Sets $MANPATH, $PATH, and `exec-path' from my shell, but only on OS X.
   (when (memq window-system '(mac ns))
     (exec-path-from-shell-initialize))
-  
-  ;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
-  (bind-key "M-/" #'hippie-expand)
-  (bind-key "C-x C-b" #'ibuffer)
-  (bind-key "C-s" #'isearch-forward-regexp)
-  (bind-key "C-r" #'isearch-backward-regexp)
-  (bind-key "C-M-s" #'isearch-forward)
-  (bind-key "C-M-r" #'isearch-backward)
+
+   ;;;; `better-defaults' according to Phil Hagelberg (aka Technomancy)
+   (bind-key "M-/" #'hippie-expand)
+   (bind-key "C-x C-b" #'ibuffer)
+   (bind-key "C-s" #'isearch-forward-regexp)
+   (bind-key "C-r" #'isearch-backward-regexp)
+   (bind-key "C-M-s" #'isearch-forward)
+   (bind-key "C-M-r" #'isearch-backward)
 
   (bind-key "M-?" #'undo) ; a pseudo `hippie-UNexpand'
 
