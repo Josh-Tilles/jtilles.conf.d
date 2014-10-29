@@ -8,7 +8,6 @@
                                ido-ubiquitous
                                expand-region
                                smartparens
-                               undo-tree
                                ace-jump-mode
                                browse-kill-ring)
            ;; set this to t if you want to manage this module yourself
