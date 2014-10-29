@@ -76,21 +76,6 @@ El-Get.")
 (add-hook 'after-init-hook #'sm-initialize)
 ;; So `sm-initialize' will run *after* `package-initialize'
 
-(defvar jpt:packages-I-expect-to-be-installed
-  '(smex 
-    ido-vertical-mode 
-    projectile
-    s
-    dash
-    gitignore-mode
-    gitconfig-mode
-    git-commit-mode
-    xml-gen ;;xmlgen
-    clojure-mode
-    nrepl-mode
-    sml-mode
-    ))
-
 ;;;;;; (added as per recommendation from `auto-compile' documentation)
 ;; Local Variables:
 ;; no-byte-compile: t
