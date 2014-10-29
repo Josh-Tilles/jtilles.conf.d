@@ -48,7 +48,6 @@
             :type elpa)
      (:name smartparens :type elpa :version "1.6.1"))))
  '(flyspell-use-meta-tab nil)
- '(ido-save-directory-list-file "~/.emacs.d/savefiles/ido.last")
  '(indent-tabs-mode nil)
  '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives
@@ -56,7 +55,6 @@
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/"))))
  '(recentf-mode t)
- '(recentf-save-file "~/.emacs.d/savefiles/recentf" nil nil "I'd rather not clutter up my home dir with the default: ~/.recentf")
  '(require-final-newline (quote ask))
  '(save-place t nil (saveplace))
  '(show-paren-mode t)

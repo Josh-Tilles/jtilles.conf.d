@@ -24,12 +24,6 @@ El-Get.")
 		    jpt:emacs-config-dir)
   "This folder stores packages that I've manually installed.")
 
-(defvar jpt:savefiles-dir (expand-file-name "savefiles" jpt:emacs-config-dir)
-  "This folder stores all the automatically generated save/history-files.")
-
-(unless (file-exists-p jpt:savefiles-dir)
-  (make-directory jpt:savefiles-dir))
-
 ;; Make sure Emacs knows to prefer a newer *.el over an older *.elc.
 (add-to-list 'load-path (expand-file-name "packed"
 					  jpt:manual-installations-dir))
