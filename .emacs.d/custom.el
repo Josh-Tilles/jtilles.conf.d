@@ -11,7 +11,6 @@
      (:name cl-lib :type builtin)
      (:name ibuffer-vc :checkout "0.7" :type elpa)
      (:name helm :checkout "v1.5.2")
-     (:name smex :checkout "3.0" :type elpa)
      (:name ido-vertical-mode :repo
             ("MELPA" . "http://melpa.milkbox.net/packages/")
             :type elpa)
@@ -63,7 +62,6 @@
  '(show-paren-mode t)
  '(sm-base-directory "~/.emacs.d/smotitah/")
  '(smartparens-global-mode nil)
- '(smex-save-file "~/.emacs.d/savefiles/smex-items" nil nil "I'd rather not clutter my home dir with the default: ~/.smex-items")
  '(sp-base-key-bindings (quote paredit))
  '(tab-always-indent (quote complete)))
 (custom-set-faces

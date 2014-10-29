@@ -4,8 +4,7 @@
 
 (sm-module "base"
            ;; add the packages required by your basic configuration here
-           :require-packages '(smex
-                               ido-ubiquitous
+           :require-packages '(ido-ubiquitous
                                expand-region
                                smartparens
                                ace-jump-mode
