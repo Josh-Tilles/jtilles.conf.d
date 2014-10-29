@@ -57,7 +57,7 @@ El-Get.")
 
 (jpt:bootstrap-el-get)
 (add-to-list 'el-get-recipe-path 
-             (expand-file-name +EL-GET_RECIPES_DIRECTORY+ jpt:emacs-config-dir))
+             (expand-file-name +EL-GET_RECIPES_DIRECTORY_NAME+ jpt:emacs-config-dir))
 ;;(el-get 'sync) ;set up ALL THE THINGS
 
 
