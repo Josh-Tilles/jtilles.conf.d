@@ -8,7 +8,6 @@
  '(custom-safe-themes
    (quote
     ("007b69ffec046a5842e34fea287b23c49175dfd6c6d5a0d9cdf150a2e8a8979f" "ea0c5df0f067d2e3c0f048c1f8795af7b873f5014837feb0a7c8317f34417b04" default)))
- '(delete-selection-mode t)
  '(el-get-sources
    (quote
     ((:name package :post-init nil)
