@@ -58,7 +58,6 @@
  '(ido-save-directory-list-file "~/.emacs.d/savefiles/ido.last")
  '(ido-use-filename-at-point (quote guess))
  '(ido-use-url-at-point nil)
- '(ido-use-virtual-buffers t)
  '(indent-tabs-mode nil)
  '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives
