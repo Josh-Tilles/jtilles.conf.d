@@ -4,8 +4,7 @@
 
 (sm-module "base"
            ;; add the packages required by your basic configuration here
-           :require-packages '(ido-ubiquitous
-                               smartparens
+           :require-packages '(smartparens
                                ace-jump-mode
                                browse-kill-ring)
            ;; set this to t if you want to manage this module yourself
