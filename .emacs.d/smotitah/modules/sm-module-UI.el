@@ -1,7 +1,7 @@
 ;;;; Module UI
 (sm-module UI
            :unmanaged-p nil
-           :require-packages '(ido-vertical-mode))
+           :require-packages '())
 
 (sm-module-pre (UI)
   ;; TODO insert your pre-package-initialization code here

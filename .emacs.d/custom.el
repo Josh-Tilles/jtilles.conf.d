@@ -11,9 +11,6 @@
      (:name cl-lib :type builtin)
      (:name ibuffer-vc :checkout "0.7" :type elpa)
      (:name helm :checkout "v1.5.2")
-     (:name ido-vertical-mode :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa)
      (:name s :checkout "1.8.0" :type elpa)
      (:name dash :checkout "2.8.0" :type elpa)
      (:name projectile :repo
