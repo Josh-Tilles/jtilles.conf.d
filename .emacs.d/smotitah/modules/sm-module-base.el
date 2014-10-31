@@ -5,7 +5,6 @@
 (sm-module "base"
            ;; add the packages required by your basic configuration here
            :require-packages '(ido-ubiquitous
-                               expand-region
                                smartparens
                                ace-jump-mode
                                browse-kill-ring)
