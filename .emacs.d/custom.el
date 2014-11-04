@@ -46,7 +46,7 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
-     ("MELPA stable" . "http://melpa-stable.milkbox.net/packages/"))))
+     ("MELPA stable" . "http://stable.melpa.org/packages/"))))
  '(recentf-mode t)
  '(require-final-newline (quote ask))
  '(save-place t nil (saveplace))
