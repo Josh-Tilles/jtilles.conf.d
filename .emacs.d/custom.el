@@ -9,36 +9,33 @@
    (quote
     ((:name package :post-init nil)
      (:name cl-lib :type builtin)
-     (:name ibuffer-vc :checkout "0.7" :type elpa)
+     (:name ibuffer-vc :type elpa :checkout "0.7")
      (:name helm :checkout "v1.5.2")
-     (:name s :checkout "1.8.0" :type elpa)
-     (:name dash :checkout "2.8.0" :type elpa)
-     (:name projectile :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa)
+     (:name s :type elpa :checkout "1.8.0")
+     (:name dash :type elpa :checkout "2.8.0")
+     (:name projectile :type elpa :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/"))
      (:name undo-tree :type elpa :version "0.6.5")
      (:name git-modes :checkout "0.15.0")
      (:name xml-gen :type elpa :version "0.4")
      (:name ProofGeneral :url "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.3pre131011.tgz")
-     (:name clojure-mode :checkout "2.2.0" :type elpa)
-     (:name cider :checkout "v0.4.0" :type elpa)
-     (:name sml-mode :compile
+     (:name clojure-mode :type elpa :checkout "2.2.0")
+     (:name cider :type elpa :checkout "v0.4.0")
+     (:name sml-mode :type emacsmirror :compile
             (".*\\.el$")
-            :info "sml-mode.info" :type emacsmirror :build/darwin
+            :info "sml-mode.info" :build/darwin
             ("makeinfo sml-mode.texi")
             :version "6.4")
-     (:name elisp-slime-nav :checkout "0.6" :type elpa)
+     (:name elisp-slime-nav :type elpa :checkout "0.6")
      (:name diminish :type elpa :version "0.44")
-     (:name exec-path-from-shell :checkout "1.7" :type elpa)
-     (:name ace-jump-mode :checkout "v2.0RC" :type elpa)
-     (:name cyberpunk-theme :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa)
+     (:name exec-path-from-shell :type elpa :checkout "1.7")
+     (:name ace-jump-mode :type elpa :checkout "v2.0RC")
+     (:name cyberpunk-theme :type elpa :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/"))
      (:name align-cljlet :type elpa :version "0.3")
      (:name haskell-mode :checkout "v13.10")
-     (:name browse-kill-ring :repo
-            ("MELPA" . "http://melpa.milkbox.net/packages/")
-            :type elpa)
+     (:name browse-kill-ring :type elpa :repo
+            ("MELPA" . "http://melpa.milkbox.net/packages/"))
      (:name smartparens :type elpa :version "1.6.1"))))
  '(flyspell-use-meta-tab nil)
  '(indent-tabs-mode nil)
