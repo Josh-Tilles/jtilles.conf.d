@@ -39,6 +39,9 @@
      (:name smartparens :type elpa :version "1.6.1"))))
  '(flyspell-use-meta-tab nil)
  '(indent-tabs-mode nil)
+ '(mac-function-modifier (quote (:ordinary hyper :function nil)))
+ '(mac-mouse-wheel-mode t)
+ '(mac-option-modifier (quote meta))
  '(ns-function-modifier (quote hyper) nil nil "http://irreal.org/blog/?p=1423")
  '(package-archives
    (quote
