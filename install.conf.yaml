@@ -1,0 +1,22 @@
+- shell:
+   - mkdir -p ~/.{config/{git,fish},ssh,darcs}
+- link:
+   # shells
+   ~/.profile: profile
+   ~/.inputrc: inputrc
+   ~/.shrc: shrc
+   ~/.profile.d: profile.d/
+   ~/.config/fish/config.fish: config/fish/config.fish
+   ~/.config/fish/functions: config/fish/functions/
+   # Git
+   ~/.config/git/config: config/git/config
+   ~/.config/git/ignore: config/git/ignore
+   ~/.gitflow_export: gitflow_export
+   # editors
+   ~/.emacs.d: emacs.d/
+   ~/.vimrc: vimrc
+   # other assorted software
+   ~/.ssh/config: ssh/config
+   ~/.darcs/author: darcs/author
+   ~/.cmucl-init.lisp: cmucl-init.lisp
+   ~/.sbclrc: sbclrc
