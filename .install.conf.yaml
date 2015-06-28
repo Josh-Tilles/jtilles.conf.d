@@ -19,5 +19,6 @@
    # other assorted software
    ~/.ssh/config: ssh/config
    ~/.darcs/author: darcs/author
+   ~/.clisprc.lisp: clisprc.lisp
    ~/.cmucl-init.lisp: cmucl-init.lisp
    ~/.sbclrc: sbclrc
