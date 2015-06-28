@@ -14,6 +14,7 @@
    ~/.gitflow_export: gitflow_export
    # editors
    ~/.emacs.d: emacs.d/
+   ~/.spacemacs: spacemacs.el
    ~/.vimrc: vimrc
    # other assorted software
    ~/.ssh/config: ssh/config

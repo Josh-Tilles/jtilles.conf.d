@@ -1,4 +1,0 @@
-(:name xml-gen
-       :type emacsmirror
-       :username "philjackson"
-       :description "A DSL for generating XML")

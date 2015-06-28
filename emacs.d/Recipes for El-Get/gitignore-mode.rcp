@@ -1,6 +1,0 @@
-(:name gitignore-mode
-       :type github
-       :username "lunaryorn"
-       :pkgname "lunaryorn/git-modes"
-       :autoloads "gitignore-mode.el"
-       :description "A conf-mode-derived major mode for editing .gitignore files.")
