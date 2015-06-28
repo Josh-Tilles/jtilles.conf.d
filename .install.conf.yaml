@@ -1,6 +1,8 @@
 - shell:
    - mkdir -p ~/.{config/{git,fish},ssh,darcs}
 - link:
+   # OS X
+   ~/Library/KeyBindings/DefaultKeyBinding.dict: Library/KeyBindings/DefaultKeyBinding.dict
    # shells
    ~/.profile: profile
    ~/.inputrc: inputrc
